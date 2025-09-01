@@ -4,7 +4,7 @@ import mysql.connector
 connection = mysql.connector.connect(
     host="localhost",
     user="root",          # ton user MySQL
-    password="1234"   # ton mot de passe MySQL
+    password=""   # ton mot de passe MySQL
 )
 cursor = connection.cursor()
 
@@ -17,7 +17,7 @@ connection.close()
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="1234",
+    password="",
     database="todo"
 )
 cursor = connection.cursor()
