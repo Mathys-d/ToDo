@@ -24,7 +24,7 @@ def todo_list():
     connection = mysql.connector.connect(
         host="localhost",
         user="root",          # ton utilisateur MySQL
-        password="1234",  # ton mot de passe MySQL
+        password="",  # ton mot de passe MySQL
         database="todo"       # la base MySQL (à créer avant)
     )
     cursor = connection.cursor()
@@ -44,7 +44,7 @@ def new_task():
         connection = mysql.connector.connect(
             host="localhost",
             user="root",          # ton utilisateur MySQL
-            password="1234",  # ton mot de passe MySQL
+            password="",  # ton mot de passe MySQL
             database="todo"       # la base MySQL
         )
         cursor = connection.cursor()
@@ -73,7 +73,7 @@ def edit_task(number):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",          # ton utilisateur MySQL
-            password="1234",  # ton mot de passe MySQL
+            password="",  # ton mot de passe MySQL
             database="todo"       # ta base MySQL
         )
         cursor = connection.cursor()
@@ -90,7 +90,7 @@ def edit_task(number):
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="1234",
+            password="",
             database="todo"
         )
         cursor = connection.cursor()
@@ -107,7 +107,7 @@ def task_as_json(number):
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="1234",
+        password="",
         database="todo"
     )
     cursor = connection.cursor()
