@@ -1,8 +1,7 @@
-- 1st 
-pip install bottle
+# 1st 
+- pip install bottle
 
-- 2nd
-# create the db
+# 2nd create the db
 
 CREATE TABLE `todo` (
   `id` int NOT NULL,
@@ -10,6 +9,6 @@ CREATE TABLE `todo` (
   `status` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-- 3rd 
-go to todo.py and run the file 
+# 3rd 
+- go to todo.py and run the file 
 
