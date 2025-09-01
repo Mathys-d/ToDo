@@ -2,13 +2,7 @@
 - pip install bottle
 
 # 2nd create the db
-
-CREATE TABLE `todo` (
-  `id` int NOT NULL,
-  `task` varchar(100) NOT NULL,
-  `status` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
+  for the bd creation just run one time the file 'todo.py' and then make the line 9  a text '#', cause it wont gonna run the process if this line is not remove.
+  
 # 3rd 
-- go to todo.py and run the file 
-
+- run the file again and search in your web browser http://127.0.0.1:8080
